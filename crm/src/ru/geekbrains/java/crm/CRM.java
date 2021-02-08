@@ -14,6 +14,11 @@ public class CRM  {
         Map plan = proxyCache.getUpPlanById(1);
         String planInfo = (String) plan.get(1);
         System.out.println(planInfo);
+
+        admin.addObserver(client);
+        admin.addObserver(trainer);
+        admin.notify("notify1");
+        admin.notify("notify2");
     }
 }
 

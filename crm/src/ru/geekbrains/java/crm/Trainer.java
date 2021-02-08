@@ -1,5 +1,5 @@
 package ru.geekbrains.java.crm;
-
-public interface Trainer {
+//observerType2
+public interface Trainer extends Observer  {
     public void train();
 }
