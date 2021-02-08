@@ -1,5 +1,5 @@
 package ru.geekbrains.java.crm;
-
-public interface Client {
+//observerType1
+public interface Client extends Observer {
     public void workOut();
 }
